@@ -1,0 +1,26 @@
+:root {
+  /* colors */
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-bg-gray: #f2f0f1;
+  --clr-bg-form: #f0f0f0;
+  --clr-border: rgb(0 0 0 / 10%);
+  --clr-gray-text-40: rgb(0 0 0 / 40%);
+  --clr-gray-text-60: rgb(0 0 0 / 60%);
+
+  /* font */
+  --ff-heading: "Integral CF", sans-serif;
+  --ff-main-bold: "Satoshi bold", sans-serif;
+  --ff-main-med: "Satoshi medium", sans-serif;
+  --ff-main-reg: "Satoshi regular", sans-serif;
+
+  /* spacing */
+  --section-padding: 3.25rem 0;
+}
+
+@media (width >= 50em) {
+  :root {
+    /* spacing */
+    --section-padding: 4.25rem 0;
+  }
+}

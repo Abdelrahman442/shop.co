@@ -1,0 +1,24 @@
+/* font */
+@font-face {
+  font-family: "Integral CF";
+  font-weight: bold;
+  src: url("../../fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+
+@font-face {
+  font-family: "Satoshi regular";
+  font-weight: normal;
+  src: url("../../fonts/Satoshi-Regular.otf");
+}
+
+@font-face {
+  font-family: "Satoshi medium";
+  font-weight: medium;
+  src: url("../../fonts/Satoshi-Medium.otf");
+}
+
+@font-face {
+  font-family: "Satoshi bold";
+  font-weight: bold;
+  src: url("../../fonts/Satoshi-Bold.otf");
+}

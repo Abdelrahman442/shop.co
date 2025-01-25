@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="E-commerce Site" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>SHOP.CO</title>
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- style link -->
+    <link rel="stylesheet" href="./assets/css/master.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div class="cart-icon">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!-- upper__offer -->
+    <div class="upper__offer" id="upper__offer">
+      <div class="container">
+        <div class="upper__offer__content">
+          <p class="upper__offer__description">
+            Sign up and get 20% off to your first order.
+          </p>
+          <a href="#">Sign Up Now</a>
+          <span class="del__offer" id="close__offer">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__content flex__center">
+          <div class="header__brand flex__center">
+            <div class="hamburger">
+              <i class="fa-solid fa-bars" id="nav__toggler"></i>
+            </div>
+            <div>
+              <a href="#">SHOP.CO</a>
+            </div>
+          </div>
+          <nav id="main__menu">
+            <ul class="header__menu flex__center">
+              <li class="flex__center" id="menu__toggler">
+                <a href="#"
+                  >Shop
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown hide__menu" id="menu">
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Shoes</a></li>
+                </ul>
+              </li>
+              <li><a href="#">On Sale</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Brands</a></li>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <button name="search__btn" aria-label="search btn">
+              <i class="fa-solid fa-search"></i>
+            </button>
+            <input
+              type="text"
+              name="search__products"
+              placeholder="Search for products..."
+            />
+          </div>
+          <div class="header__icons flex__center">
+            <a href="#" aria-label="shopping cart"
+              ><i class="fa-solid fa-shopping-cart"></i
+            ></a>
+            <a href="#" aria-label="user profile"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main section -->
+    <section class="main__section">
+      <div class="container">
+        <div class="main__section__content flex__center">
+          <div class="section__content">
+            <h1 class="main__section__title">
+              FIND CLOTHES THAT MATCHES YOUR STYLE
+            </h1>
+            <p class="main__section__description">
+              Browse through our diverse range of meticulously crafted garments,
+              designed to bring out your individuality and cater to your sense
+              of style.
+            </p>
+            <div class="main__section__buttons">
+              <a href="#" class="main__section__button btn__solid">Shop Now</a>
+            </div>
+            <div class="main__section__statistics flex__center">
+              <div class="statistic">
+                <h2 class="statistic__title">200+</h2>
+                <p class="statistic__description">International Brands</p>
+              </div>
+              <div class="statistic">
+                <h2 class="statistic__title">2,000+</h2>
+                <p class="statistic__description">High-Quality Products</p>
+              </div>
+              <div class="statistic">
+                <h2 class="statistic__title">30,000+</h2>
+                <p class="statistic__description">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+          <div class="main__section__img">
+            <img
+              src="./assets/images/Vector.png"
+              alt="star"
+              class="star star__big"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/Vector-1.png"
+              alt="star"
+              class="star star__small"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/hero.png"
+              alt="hero img"
+              class="main__img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brands -->
+    <div class="brands">
+      <div class="container">
+        <div class="brands__content flex__center">
+          <div class="brand__img">
+            <img
+              src="./assets/images/company-1.png"
+              alt="brands img"
+              loading="lazy"
+            />
+          </div>
+          <div class="brand__img">
+            <img
+              src="./assets/images/company-2.png"
+              alt="brands img"
+              loading="lazy"
+            />
+          </div>
+          <div class="brand__img">
+            <img
+              src="./assets/images/company-3.png"
+              alt="brands img"
+              loading="lazy"
+            />
+          </div>
+          <div class="brand__img">
+            <img
+              src="./assets/images/company-4.png"
+              alt="brands img"
+              loading="lazy"
+            />
+          </div>
+          <div class="brand__img">
+            <img
+              src="./assets/images/company-5.png"
+              alt="brands img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- products section && new arrivals -->
+    <section class="products__section new__arrivals">
+      <div class="container">
+        <div class="products__section__content">
+          <div class="section__title">
+            <h2>NEW ARRIVALS</h2>
+          </div>
+          <div class="products flex__center">
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-1.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">T-SHIRT WITH TAPE DETAILS</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="product__reviews"> 4.5/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$120</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-2.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">SKINNY FIT JEANS</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="product__reviews"> 3.5/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$240</span>
+                  <span class="old__price">$260</span>
+                  <span class="product__sale">-20%</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-3.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">CHECKERED SHIRT</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="product__reviews"> 4.5/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$180</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-4.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">SLEEVE STRIPED T-SHIRT</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="product__reviews"> 4.5/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$130</span>
+                  <span class="old__price">$160</span>
+                  <span class="product__sale">-30%</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="products__section__buttons">
+            <a href="#" class="products__section__button btn__regular"
+              >View All</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products section && top selling -->
+    <section class="products__section top__selling">
+      <div class="container">
+        <div class="products__section__content">
+          <div class="section__title">
+            <h2>top selling</h2>
+          </div>
+          <div class="products flex__center">
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-5.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">VERTICAL STRIPED SHIRT</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <span class="product__reviews"> 5.0/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$212</span>
+                  <span class="old__price">$232</span>
+                  <span class="product__sale">-20%</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-6.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">COURAGE GRAPHIC T-SHIRT</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <span class="product__reviews"> 4.0/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$145</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-7.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">LOOSE FIT BERMUDA SHORTS</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <span class="product__reviews"> 3.0/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$80</span>
+                </p>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product__img">
+                <img
+                  src="./assets/images/product-8.png"
+                  alt="product img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product__content">
+                <h3 class="product__title">FADED SKINNY JEANS</h3>
+                <div class="product__rate flex__center">
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="product__reviews"> 4.5/<span>5</span></span>
+                </div>
+                <p class="product__price flex__center">
+                  <span class="new__price">$210</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="products__section__buttons">
+            <a href="#" class="products__section__button btn__regular"
+              >View All</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- browse section -->
+    <section class="browse__section">
+      <div class="container">
+        <div class="section__content">
+          <div class="section__title">
+            <h2>BROWSE BY dress STYLE</h2>
+          </div>
+          <div class="browse__category">
+            <div class="flex__center">
+              <div class="browse__item">
+                <a href="#"
+                  ><img
+                    src="./assets/images/cat-1.png"
+                    alt="browse item"
+                    loading="lazy"
+                /></a>
+              </div>
+              <div class="browse__item">
+                <a href="#">
+                  <img
+                    src="./assets/images/cat-2.png"
+                    alt="browse item"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="flex__center">
+              <div class="browse__item">
+                <a href="#">
+                  <img
+                    src="./assets/images/cat-3.png"
+                    alt="browse item"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+              <div class="browse__item">
+                <a href="#">
+                  <img
+                    src="./assets/images/cat-4.png"
+                    alt="browse item"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section -->
+    <section class="testimonials__section">
+      <div class="container">
+        <div class="testimonials__content">
+          <div class="section__head flex__center">
+            <div class="section__title">
+              <h2>OUR HAPPY CUSTOMERS</h2>
+            </div>
+            <div class="swiper__controls">
+              <button class="swiper-button-prev" aria-label="arrow left">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="swiper-button-next">
+                <i class="fa-solid fa-arrow-right" aria-label="arrow right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="testimonials__slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>Sarah M.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "I'm blown away by the quality and style of the clothes I
+                      received from Shop.co. From casual wear to elegant
+                      dresses, every piece I've bought has exceeded my
+                      expectations.”
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>Alex K.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "Finding clothes that align with my personal style used to
+                      be a challenge until I discovered Shop.co. The range of
+                      options they offer is truly remarkable, catering to a
+                      variety of tastes and occasions.”
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>James L.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "As someone who's always on the lookout for unique fashion
+                      pieces, I'm thrilled to have stumbled upon Shop.co. The
+                      selection of clothes is not only diverse but also on-point
+                      with the latest trends.”
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>Sarah M.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "I'm blown away by the quality and style of the clothes I
+                      received from Shop.co. From casual wear to elegant
+                      dresses, every piece I've bought has exceeded my
+                      expectations.”
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>Alex K.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "Finding clothes that align with my personal style used to
+                      be a challenge until I discovered Shop.co. The range of
+                      options they offer is truly remarkable, catering to a
+                      variety of tastes and occasions.”
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="testimonial__name flex__center">
+                      <span>James L.</span>
+                      <img
+                        src="./assets/images/check.png"
+                        alt="check icon"
+                        loading="lazy"
+                      />
+                    </h3>
+                    <p class="testimonial__text">
+                      "As someone who's always on the lookout for unique fashion
+                      pieces, I'm thrilled to have stumbled upon Shop.co. The
+                      selection of clothes is not only diverse but also on-point
+                      with the latest trends.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe -->
+    <section class="subscribe__section">
+      <div class="container">
+        <div class="subscribe__content flex__center">
+          <div class="section__title">
+            <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+          </div>
+          <form action="#" class="subscribe__form">
+            <div class="input__filed">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+            <button type="submit" class="form__btn">
+              Subscribe to Newsletter
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__description">
+            <h3 class="footer__title">SHOP.CO</h3>
+            <p class="footer__text">
+              We have clothes that suits your style and which you’re proud to
+              wear. From women to men.
+            </p>
+            <div class="social__links">
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="social icons"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="social icons"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="social icons"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="social__link"
+                target="_blank"
+                aria-label="social icons"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__menu">
+            <h3 class="menu__title">Company</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">About</a></li>
+              <li class="footer__item"><a href="#">Features</a></li>
+              <li class="footer__item"><a href="#">Works</a></li>
+              <li class="footer__item"><a href="#">Career</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="menu__title">Help</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">Customer Support</a></li>
+              <li class="footer__item"><a href="#">Delivery Details</a></li>
+              <li class="footer__item"><a href="#">Terms & Conditions</a></li>
+              <li class="footer__item"><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="menu__title">FAQ</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">Account</a></li>
+              <li class="footer__item"><a href="#">Manage Deliveries</a></li>
+              <li class="footer__item"><a href="#">Orders</a></li>
+              <li class="footer__item"><a href="#">Payments</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="menu__title">Resources</h3>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#">Free eBooks</a></li>
+              <li class="footer__item"><a href="#">Development Tutorial</a></li>
+              <li class="footer__item"><a href="#">How to - Blog</a></li>
+              <li class="footer__item"><a href="#">Youtube Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="copyright">
+            &copy; Shop.co © 2000-2023, All Rights Reserved
+          </p>
+          <div class="payment__methods">
+            <img
+              src="./assets/images/payment-1.png"
+              alt="payment img"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/payment-2.png"
+              alt="payment img"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/payment-3.png"
+              alt="payment img"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/payment-4.png"
+              alt="payment img"
+              loading="lazy"
+            />
+            <img
+              src="./assets/images/payment-5.png"
+              alt="payment img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js code -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/master.js"></script>
+  </body>
+</html>
